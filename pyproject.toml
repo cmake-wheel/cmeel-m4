@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "cmeel.build"
+requires = ["cmeel-gperf", "cmeel-help2man", "cmeel-texinfo", "cmeel[build]"]
+
+[project]
+description = "cmeel distribution for M4"
+license = "GPL-3.0-only"
+name = "cmeel-m4"
+requires-python = ">= 3.8"
+version = "1.4.19"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-m4"
+repository = "https://github.com/cmake-wheel/cmeel-m4.git"
+
+[tool.cmeel]
+py3-none = true
+run-tests = false
+
+[tool.tomlsort]
+all = true
