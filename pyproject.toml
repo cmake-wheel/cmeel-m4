@@ -1,6 +1,6 @@
 [build-system]
 build-backend = "cmeel.build"
-requires = ["cmeel-gperf", "cmeel-help2man", "cmeel-texinfo", "cmeel[build]"]
+requires = ["cmeel-gettext", "cmeel-gperf", "cmeel-help2man", "cmeel-texinfo", "cmeel[build]"]
 
 [project]
 description = "cmeel distribution for M4"
