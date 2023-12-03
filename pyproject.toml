@@ -12,6 +12,7 @@ version = "1.4.19"
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-m4"
 repository = "https://github.com/cmake-wheel/cmeel-m4.git"
+upstream = "https://www.gnu.org/software/m4/"
 
 [tool.cmeel]
 build-number = 3
