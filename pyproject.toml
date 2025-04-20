@@ -7,7 +7,7 @@ description = "cmeel distribution for M4"
 license = "GPL-3.0-only"
 name = "cmeel-m4"
 requires-python = ">= 3.8"
-version = "1.4.19"
+version = "1.4.19.1"
 
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-m4"
@@ -15,9 +15,9 @@ repository = "https://github.com/cmake-wheel/cmeel-m4.git"
 upstream = "https://www.gnu.org/software/m4/"
 
 [tool.cmeel]
-build-number = 3
 has-sitelib = false
 run-tests = false
+upstream-version = "1.4.19"
 
 [tool.tomlsort]
 all = true
