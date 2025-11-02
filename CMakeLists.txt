@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.30)
 
 set(NAME m4)
-set(VERSION 1.4.19)
+set(VERSION 1.4.20)
 set(EXT tar.xz)
-set(SHA256 63aede5c6d33b6d9b13511cd0be2cac046f2e70fd0a07aa9573a04a82783af96)
+set(SHA256 e236ea3a1ccf5f6c270b1c4bb60726f371fa49459a8eaaebc90b216b328daf2b)
 
 project("cmeel-${NAME}" VERSION "${VERSION}")
 
